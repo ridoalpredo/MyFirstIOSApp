@@ -12,6 +12,8 @@
 		1A5F150A277B3CA0006F7696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F1509277B3CA0006F7696 /* Assets.xcassets */; };
 		1A5F150D277B3CA0006F7696 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F150C277B3CA0006F7696 /* Preview Assets.xcassets */; };
 		1A5F1514277B4EF9006F7696 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F1513277B4EF9006F7696 /* DetailView.swift */; };
+		1A5F1516277B59CB006F7696 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F1515277B59CB006F7696 /* HomeView.swift */; };
+		1A5F1518277B5A93006F7696 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F1517277B5A93006F7696 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		1A5F1509277B3CA0006F7696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A5F150C277B3CA0006F7696 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A5F1513277B4EF9006F7696 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1A5F1515277B59CB006F7696 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1A5F1517277B5A93006F7696 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				1A5F1505277B3C9D006F7696 /* MyFirstIOSAppApp.swift */,
 				1A5F1507277B3C9D006F7696 /* ContentView.swift */,
 				1A5F1513277B4EF9006F7696 /* DetailView.swift */,
+				1A5F1515277B59CB006F7696 /* HomeView.swift */,
+				1A5F1517277B5A93006F7696 /* CardView.swift */,
 				1A5F1509277B3CA0006F7696 /* Assets.xcassets */,
 				1A5F150B277B3CA0006F7696 /* Preview Content */,
 			);
@@ -141,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A5F1508277B3C9D006F7696 /* ContentView.swift in Sources */,
+				1A5F1516277B59CB006F7696 /* HomeView.swift in Sources */,
 				1A5F1514277B4EF9006F7696 /* DetailView.swift in Sources */,
 				1A5F1506277B3C9D006F7696 /* MyFirstIOSAppApp.swift in Sources */,
+				1A5F1518277B5A93006F7696 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
