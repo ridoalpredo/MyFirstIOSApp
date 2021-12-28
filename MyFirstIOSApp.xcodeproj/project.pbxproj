@@ -14,6 +14,7 @@
 		1A5F1514277B4EF9006F7696 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F1513277B4EF9006F7696 /* DetailView.swift */; };
 		1A5F1516277B59CB006F7696 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F1515277B59CB006F7696 /* HomeView.swift */; };
 		1A5F1518277B5A93006F7696 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F1517277B5A93006F7696 /* CardView.swift */; };
+		1A5F151A277B5EBE006F7696 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F1519277B5EBE006F7696 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1A5F1513277B4EF9006F7696 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		1A5F1515277B59CB006F7696 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1A5F1517277B5A93006F7696 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1A5F1519277B5EBE006F7696 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				1A5F1513277B4EF9006F7696 /* DetailView.swift */,
 				1A5F1515277B59CB006F7696 /* HomeView.swift */,
 				1A5F1517277B5A93006F7696 /* CardView.swift */,
+				1A5F1519277B5EBE006F7696 /* ListView.swift */,
 				1A5F1509277B3CA0006F7696 /* Assets.xcassets */,
 				1A5F150B277B3CA0006F7696 /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			files = (
 				1A5F1508277B3C9D006F7696 /* ContentView.swift in Sources */,
 				1A5F1516277B59CB006F7696 /* HomeView.swift in Sources */,
+				1A5F151A277B5EBE006F7696 /* ListView.swift in Sources */,
 				1A5F1514277B4EF9006F7696 /* DetailView.swift in Sources */,
 				1A5F1506277B3C9D006F7696 /* MyFirstIOSAppApp.swift in Sources */,
 				1A5F1518277B5A93006F7696 /* CardView.swift in Sources */,
