@@ -8,25 +8,37 @@
 import SwiftUI
 
 struct HomeView: View {
+    var item: Item = items[1]
+    
     var body: some View {
         NavigationView {
             ScrollView {
                 ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 20) {
-                        ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-                            
+                HStack(spacing: 16) {
+                        ForEach(items) { item in
+                                
                             NavigationLink(destination: DetailView()) {
-                                CardView()
+                                CardView(item: item)
                             }
                             
                             
                         }
                     }
                 .padding()
+                    
+                    
+                    
                 }
                 .navigationTitle("Learn Course")
+                Text("Recent Course")
+                    .font(.subheadline)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding()
+                SmallCardView()
             }
-        }    }
+           
+        }
+    }
 }
 
 struct HomeView_Previews: PreviewProvider {
