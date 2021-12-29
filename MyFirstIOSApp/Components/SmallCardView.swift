@@ -14,8 +14,10 @@ struct SmallCardView: View {
         VStack(alignment: .leading) {
             Image(item.image)
                 .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(maxWidth: .infinity)
             Text(item.title)
-                .font(.title)
+                .font(.headline)
                 .foregroundColor(Color.white).bold()
                 .lineLimit(2)
             Text("20 Section - 3 Hours")

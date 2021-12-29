@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
-    var item: Item = items[1]
+    var item: Item = items[0]
     
     var body: some View {
         NavigationView {
@@ -34,7 +34,16 @@ struct HomeView: View {
                     .font(.subheadline)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding()
-                SmallCardView()
+                LazyVGrid (columns: [GridItem(.adaptive(minimum: 160))]) {
+                    ForEach(items) { item in
+                        
+                        NavigationLink(destination: DetailView()) {
+                            SmallCardView(item: item)
+                        }
+                    }
+                    .padding(.horizontal, 5)
+                }
+
             }
            
         }
