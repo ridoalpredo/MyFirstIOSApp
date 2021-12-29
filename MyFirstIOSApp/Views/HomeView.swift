@@ -20,21 +20,17 @@ struct HomeView: View {
                             NavigationLink(destination: DetailView()) {
                                 CardView(item: item)
                             }
-                            
-                            
                         }
                     }
                 .padding()
-                    
-                    
-                    
+  
                 }
                 .navigationTitle("Learn Course")
                 Text("Recent Course")
                     .font(.subheadline)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding()
-                LazyVGrid (columns: [GridItem(.adaptive(minimum: 160))]) {
+                LazyVGrid (columns: [GridItem(.adaptive(minimum: 160), spacing: 9)], spacing: 16) {
                     ForEach(items) { item in
                         
                         NavigationLink(destination: DetailView()) {
